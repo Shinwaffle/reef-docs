@@ -10,7 +10,7 @@ jobs:
 
   build:
 
-    runs-on: node
+    runs-on: self-hostedf
 
     steps:
     - uses: actions/checkout@v4
